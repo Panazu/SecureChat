@@ -1,0 +1,24 @@
+a {
+  text-decoration: none !important;
+}
+
+#contacts {
+  border-bottom: 0;
+}
+
+.contact {
+  border-bottom: 1px solid #e0dcdc;
+  border-top: 0;
+  text-align: center;
+  padding: 1em;
+  transition: background 0.2s;
+}
+
+.contact:hover {
+  background: #eeeeee;
+  transition: background 0.2s;
+}
+
+.card-header {
+  text-align: center;
+}

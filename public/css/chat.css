@@ -1,0 +1,82 @@
+a {
+  text-decoration: none !important;
+}
+
+#contacts {
+  border-bottom: 0;
+}
+
+.contact {
+  margin-top: -43px;
+  margin-left: -1px;
+  border-bottom: 1px solid #e0dcdc;
+  border-top: 0;
+  text-align: center;
+  padding: 1em;
+  transition: background 0.2s;
+}
+
+.contact:hover {
+  background: #eeeeee;
+  transition: background 0.2s;
+}
+
+.messages {
+  margin-bottom: 1em;
+}
+
+.message {
+  border-bottom: 1px solid #e0dcdc;
+  padding: 1em;
+}
+
+.message .user {
+  margin-bottom: 0.3em;
+  font-weight: bold;
+}
+
+#answer {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#answer button {
+  margin: 1em 0;
+  min-width: 30%;
+}
+
+.card-header {
+  text-align: center;
+}
+
+.online {
+  background: #00b000;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 100%;
+  margin-right: 5px;
+}
+
+.offline {
+  background: #c10000;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 100%;
+  margin-right: 5px;
+}
+
+.remove {
+  position: relative;
+  left: -35px;
+  top: 10px;
+  width: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.remove button {
+  background: transparent;
+  color: #d40000;
+  border: 0;
+}
